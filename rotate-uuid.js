@@ -19,7 +19,7 @@ const CONFIG_FILE = path.join(__dirname, 'config.json');
 // How often to rotate, in days. Adjust to taste — e.g. 7 for weekly, 14 for
 // every two weeks. Pluto's flagging behavior isn't documented, so this is a
 // starting point you can tune based on how often you were manually rotating.
-const ROTATE_EVERY_DAYS = 14;
+const ROTATE_EVERY_DAYS = 1;
 
 function main() {
   if (!fs.existsSync(CONFIG_FILE)) {
