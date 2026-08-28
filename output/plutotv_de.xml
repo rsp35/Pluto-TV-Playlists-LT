@@ -9949,6 +9949,11 @@ Wohnen, Reisen, Mode und Gesundheit.</desc>
         <desc>Das Finale 3 der Playoffs in der VBL findet am Mittwoch, 22. April 2026 um 19:00 Uhr statt. Das Spiel wird in der Suhler Vogtland Arena in Suhl ausgetragen. Die Übertragung beginnt um 18:30 Uhr.</desc>
         <icon src="https://images.pluto.tv/series/68aee704d2b4de67e6c650f9/tile_1756321775737.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
     </programme>
+    <programme channel="6866525c8a412a0e95c438b4" start="20260828093400 +0000" stop="20260828103400 +0000">
+        <title>Dyn Highlights All Sports</title>
+        <desc>Dyn Highlights All Sports.</desc>
+        <icon src="https://images.pluto.tv/series/68a60ff99889a990edd7bc13/tile_1755713532280.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
+    </programme>
     <programme channel="6870c9333ffa5e0c914e9205" start="20260828053000 +0000" stop="20260828060000 +0000">
         <title>Tennis Channel</title>
         <desc>Hier gibt’s ganz großes Tennis! Und das rund um die Uhr. Genieße Hunderte Stunden Live-Matches, Highlights, legendäre Spiele, exklusive Features, Dokumentationen und mehr – dem Sport näher als je zuvor.</desc>
@@ -17191,6 +17196,11 @@ Wohnen, Reisen, Mode und Gesundheit.</desc>
         <title>Mansfield Park</title>
         <desc>Eine junge Frau wird entsendet, um auf dem Landgut ihrer reichen Cousins zu leben und die Umgangsformen der Gesellschaft zu erlernen, doch sie erhellt sie ebenso mit ihrem ganz eigenen Scharfsinn. Basierend auf dem beliebten Roman von Jane Austen.</desc>
         <icon src="https://images.pluto.tv/series/63c56ee086acfd00136dd777/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
+    </programme>
+    <programme channel="5dc287ce3086a20009f5024c" start="20260828134655 +0000" stop="20260828152455 +0000">
+        <title>On The Line</title>
+        <desc>Für Kevin läuft's gut, aber als er das Mädchen seiner Träume entdeckt und nichts über sie erfährt, startet er eine Kampagne, um sie zu finden. Führt das Schicksal sie wieder zusammen, zeigt das: Liebe möglich ist, wenn man sein Herz aufs Spiel setzt.</desc>
+        <icon src="https://images.pluto.tv/series/64de0082a5aa6e0013c4f9a2/tile_1784664722328.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
     </programme>
     <programme channel="5dde47b63585b500099f74ec" start="20260828080617 +0000" stop="20260828102817 +0000">
         <title>Der Sieger</title>
@@ -29886,6 +29896,11 @@ Wohnen, Reisen, Mode und Gesundheit.</desc>
     <programme channel="5ad9b7aae738977e2c312132" start="20260828194148 +0000" stop="20260828213018 +0000">
         <title>WPT Classics</title>
         <desc>In one of the most eagerly anticipated finals of the year, the charismatic champion "Gambling" Gus Hansen returns to the final table at the Bellagio Five Diamond Poker Classic to defend his title and stake a claim to the $3,000,000 prize pool.</desc>
+        <icon src="https://images.pluto.tv/series/6749d19ec814a900132f36f3/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
+    </programme>
+    <programme channel="5ad9b7aae738977e2c312132" start="20260828213018 +0000" stop="20260828231848 +0000">
+        <title>WPT Classics</title>
+        <desc>The World Poker Tour sets down in the enchanting City of Lights for an international poker mêlée, French-style, as six world-class players from four continents battle for pride, country, and over a million in cash.</desc>
         <icon src="https://images.pluto.tv/series/6749d19ec814a900132f36f3/tile.jpg?fill=blur&amp;fit=fill&amp;fm=jpg&amp;h=660&amp;q=75&amp;w=660"/>
     </programme>
     <programme channel="5d4947590ba40f75dc29c26b" start="20260828172904 +0000" stop="20260828175404 +0000">
