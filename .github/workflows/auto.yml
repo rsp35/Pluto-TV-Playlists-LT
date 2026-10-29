@@ -2,8 +2,19 @@ name: Auto Pluto Update
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    # Pluto session tokens last ~24h, so every 4h leaves plenty of margin
+    # if GitHub delays or drops a run. Minute 23 avoids the top-of-the-hour
+    # rush when scheduled runs are most likely to be delayed or skipped.
+    - cron: '23 */4 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: auto-pluto-update
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -12,6 +23,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      # GitHub switches off scheduled workflows in a public repo after 60
+      # days without human activity, and the bot's own commits don't count.
+      # Re-enabling the workflow on every run resets that timer, so the
+      # schedule keeps itself alive.
+      - name: Keep scheduled runs alive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable auto.yml --repo "${{ github.repository }}" || echo "Could not refresh keepalive"
 
       - name: Setup Node
         uses: actions/setup-node@v4
