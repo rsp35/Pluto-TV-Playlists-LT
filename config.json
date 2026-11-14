@@ -1,6 +1,6 @@
 {
   "outdir": "./output",
-  "clientID": "79fdaf66-2b89-46e2-b8db-6ea3992900a7",
+  "clientID": "323b40f8-318b-4337-ac75-7c9d818b2d81",
   "mapping": {
     "us": "45.50.96.71",
     "uk": "51.89.255.67",
@@ -22,5 +22,5 @@
   "ondemand": false,
   "vlcopts": false,
   "pipeopts": false,
-  "_client_id_rotated_at": "2026-11-14T00:55:08.775Z"
+  "_client_id_rotated_at": "2026-11-14T18:17:16.792Z"
 }
